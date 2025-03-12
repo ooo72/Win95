@@ -3,7 +3,7 @@ Dos(document.getElementById("dosbox"), {
   h: 768,
   wdosboxUrl: "https://js-dos.com/6.22/current/wdosbox.js"
 }).ready(async (fs, main) => {
-  await fs.extract("https://filebin.net/zdzd2938391win95/WIN.ZIP");
+  await fs.extract("https://dn790004.ca.archive.org/0/items/win95_in_dosbox/package.zip");
   main(["AUTOEXEC.BAT"]);
 });
 setInterval(() => {
