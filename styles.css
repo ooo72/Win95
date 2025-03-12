@@ -1,0 +1,9 @@
+body {
+  background-color: black;
+  overflow: hidden;
+}
+
+#dosbox {
+  width: 1052px;
+  height: 635px;
+}
