@@ -1,0 +1,15 @@
+{
+  "name": "Windows 95",
+  "short_name": "Win95",
+  "description": "Windows 95, but in a website.",
+  "start_url": "win95.html",
+  "display": "fullscreen",
+  "background_color": "#000000",
+  "icons": [
+    {
+      "src": "assets/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
