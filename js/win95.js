@@ -3,9 +3,7 @@ Dos(document.getElementById("dosbox"), {
   h: 768,
   wdosboxUrl: "https://js-dos.com/6.22/current/wdosbox.js"
 }).ready((fs, main) => {
-  fs.extract("assets/WIN.ZIP").then(() => {
-    main(["AUTOEXEC.BAT"]);
-  });
+    main(["assets/win/AUTOEXEC.BAT"]);
 });
 setInterval(() => {
   document.title = "Win95";
